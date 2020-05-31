@@ -1,0 +1,75 @@
+#parent{
+	width: 100%;
+	height: 100%;
+	background-color: #ffaabb;
+}
+
+#top-bar{
+	width: 100%;
+	height: 10%;
+	background-color: pink;
+	display: inline-flex;
+}
+
+#container{
+	width: 100%;
+	height: 80%;
+	background-color: yellow;
+}
+
+#lower-bar{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+	background-color: green;
+}
+
+#search-bar{
+	font-size:xx-large;
+}
+
+#icon{
+	font-size: xxx-large;
+}
+
+
+#extra-div1{
+	height: 100%;
+	width: 0%;
+	background-color: white;
+}
+
+#priority-container{
+	width: 80px;
+	height: 80px;
+	background-color: lightblue;
+	margin: 0px 5px 5px 5px;
+	font-weight: bolder;
+}
+
+#priority{
+	width: 80%;
+	height: 80%;
+	background-color: red;
+	position: relative;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		border-radius:50%;
+}
+
+#add-container {
+    width: 10%;
+    height: 100%;
+    font-size: xxx-large;
+    color: antiquewhite;
+    text-align: right;
+}
+
+#fa-plus-circle {
+    width: 100%;
+    margin-top: 15%;
+}
